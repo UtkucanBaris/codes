@@ -19,5 +19,5 @@ while True:
                 print("Bu Tc kimlik numarası {tc} geçerlidir" .format (tc="".join(Tc)));print()
             else:print("Hata girdiğiniz Tc kimlik numarası {tc} geçersizdir" .format (tc="".join(Tc)));print()
         else:print("Hata girdiğiniz Tc kimlik numarası {tc} geçersizdir" .format (tc="".join(Tc)));print()
-    else:print("Hata, girdiğiniz numara ({tc}) sıfır ile başlayamaz ve 11 karakterli olmalıdır" .format (tc="".join(Tc)));print()
+    else:print("Hata, girdiğiniz numara {tc} sıfır ile başlayamaz ve 11 karakterli olmalıdır" .format (tc="".join(Tc)));print()
     print("Time :",timeit.default_timer()-start)
